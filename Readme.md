@@ -71,3 +71,17 @@ API说明和使用：
 > 当我们要使用FreeRTOS的定时器功能时，调度器开始时会自动创建两个任务，一个是空闲任务，一个是定时器的守护任务。守护任务做了三件事1. 处理一个用户定义函数；2.检查是否有定时器到期；3. 处理定时器命令。
 
 [FreeRTOS之Timer-02定时器守护任务（源码）](./FreeRTOS之Timer-02定时器守护任务（源码）.md) （API+源码）
+
+> 定时器控制:比如开启定时器、停止定时器、删除定时器等等
+
+[FreeRTOS之Timer-03定时器控制（API+源码）](./FreeRTOS之Timer-03定时器控制（API+源码）.md)
+
+> 怎么让任务安全的使用数据
+
+[FreeRTOS之资源管理（API+源码）](./FreeRTOS之资源管理（API+源码）.md)
+
+[FreeRTOS之调度策略](./FreeRTOS之调度策略.md)
+
+> FreeRTOS是怎么开始运行的
+
+[FreeRTOS之调度器](./FreeRTOS之调度器.md)
